@@ -1,0 +1,34 @@
+1.A,D
+2.A,B,C
+3.B
+4.B
+5.A
+6.C
+7.B
+8.D
+9.B
+10.C
+11.A Data Warehousing (DW) is process for collecting and managing data from varied sources to provide meaningful business insights. 
+A Data warehouse is typically used to connect and analyze business data from heterogeneous sources. 
+The data warehouse is the core of the BI system which is built for data analysis and reporting.
+
+12.OLTP and OLAP: The two terms look similar but refer to different kinds of systems. 
+Online transaction processing (OLTP) captures, stores, and processes data from transactions in real time. 
+Online analytical processing (OLAP) uses complex queries to analyze aggregated historical data from OLTP systems.
+
+13.There are three prominent data warehouse characteristics:
+
+Integrated: The way data is extracted and transformed is uniform, regardless of the original source.
+Time-variant: Data is organized via time-periods (weekly, monthly, annually, etc.).
+Non-volatile: A data warehouse is not updated in real-time. 
+It is periodically updated via the uploading of data, protecting it from the influence of momentary change.
+
+14.Star schema is the fundamental schema among the data mart schema and it is simplest. 
+This schema is widely used to develop or build a data warehouse and dimensional data marts.
+ It includes one or more fact tables indexing any number of dimensional tables. 
+The star schema is a necessary case of the snowflake schema. It is also efficient for handling basic queries.
+
+15.SETL is a very-high level language with dynamic typing and dynamic data structures, based on the mathematical notion of set. 
+It was designed in the very early 1970s by J. Schwartz – a renown mathematician, with the help of R. Dewar and others. 
+The language introduced a fundamentally new paradigm in programming in which sets, ordered sets and maps are the principal data structures and the programs are expressed in terms of set constructors, set operations, and predicates on sets. 
+The very name SETL is an abbreviation of ‘SET Language’.
