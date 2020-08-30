@@ -1,0 +1,42 @@
+1.B
+2.A
+3.B
+4.A
+5.B
+6.C
+7.C
+8.A
+9.A,C,D
+10.A,C,D
+11.List:
+The simplest data structure in Python and is used to store a list of values. Lists are collections of items (strings, integers, or even other lists).
+Each item in the list has an assigned index value.Lists are enclosed in [ ].
+Each item in a list is separated by a comma. Unlike strings, lists are mutable, which means they can be changed.
+Lists hold a sequence of values (just like strings can hold a sequence of characters).
+Lists are very easy to create, these are some of the ways to make lists
+Ex: list1 = ['2.3','three','1']
+
+Tuple:
+A tuple is a sequence of values much like a list. The values stored in a tuple can be any type, and they are indexed by integers.
+The important difference is that tuples are immutable.
+That we can’t change the elements of tuple once it is assigned whereas in the list, elements can be changed.
+
+Set:
+Sets are unordered.
+Set elements are unique. Duplicate elements are not allowed.
+A set itself may be modified, but the elements contained in the set must be of an immutable type.
+Sets can be used to perform mathematical set operations like union, intersection, symmetric difference etc.
+
+Dictionary:
+A dictionary maps a set of objects (keys) to another set of objects (values). A Python dictionary is a mapping of unique keys to values. 
+Dictionaries are mutable, which means they can be changed. The values that the keys point to can be any Python value.
+
+12.no strings are not mutable.we can use replace function to replace "+" with space like 
+a="I+Love+Python"
+a.replace("+"," ")
+
+13.The ord() function in Python accepts a string of length 1 as an argument and returns the unicode code point representation of the passed argument. 
+For example ord('B') returns 66 which is a unicode code point value of character 'B'.
+To get the type of variable use type() ex: a="Hi" type(a) will give output as str(string).
+
+
