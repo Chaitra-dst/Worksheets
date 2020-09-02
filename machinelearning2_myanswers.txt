@@ -1,0 +1,48 @@
+1.A
+2.C
+3.C
+4.A
+5.B
+6.A,D
+7.B,C
+8.A,C
+9.A,B,C
+10.djusted R2 also indicates how well terms fit a curve or line, but adjusts for the number of terms in a model. If you add more and more useless variables
+to a model, adjusted r-squared will decrease. If you add more useful variables, adjusted r-squared will increase.
+Adjusted R2 will always be less than or equal to R2.
+R2 assumes that every single variable explains the variation in the dependent variable. The adjusted R2 tells you the percent age of variation 
+explained by only the independent variables that actually affect the dependent variable.
+
+
+11.A regression model that uses L1 regularization technique is called Lasso Regression and model which uses L2 is called Ridge Regression.
+Ridge regression helps in bringing the difference between coefficients to minimum value whereas in case of Lasso regression helps in bringing some of the 
+coefficient values to zero thus removing some of the features altogether.Lasso helps in case of dataset containing high number of features.
+
+12.The variance inflation factor (VIF) quantifies the extent of correlation between one predictor and the other predictors in a model. 
+It is used for diagnosing collinearity/multicollinearity. 
+Higher values signify that it is difficult to impossible to assess accurately the contribution of predictors to a model.
+The smallest possible value for VIF is 1, which indicates the complete absence of collinearity. 
+A VIF value that exceeds 5 or 10 indicates a problematic amount of collinearity.
+
+13.Real world dataset contains features that highly vary in magnitudes, units, and range.
+Here feature scaling helps to weigh all the features equally.t is a step of Data Pre Processing which is applied to independent variables or 
+features of data.It basically helps to normalise the data within a particular range. 
+Sometimes, it also helps in speeding up the calculations in an algorithm.
+
+
+14.Mean absolute error, mean squared error and r2 score are different metrics used to evaluate the fit in linear regression.
+R2 score is the proportion of variance in dependent variable that is predictable from independent variables i.e change in 
+output when input is being changed.
+
+
+15.From table
+True positive(TP)= 1000
+False negative(FN)=50
+False positive(FP)=250
+True negative(TN)=1200
+
+Sensitivity Or Recall= TP/TP+FN = 1000/1000+50=0.95
+Specificity= TN/TN+FP= 1200/1200+250= 0.82
+Precision= TP/TP+FP= 1000/1000+250=0.8
+Accuracy= TP+TN/TP+TN+FP+FN =1000+1200/1000+1200+250+50=0.88
+
